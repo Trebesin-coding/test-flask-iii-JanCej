@@ -13,3 +13,23 @@
 ## JSON
 
 8.  data z formuláře ulož také do JSON stiznosti.json ve složce data
+
+
+# Hodnocení:
+
+
+✅
+
+✅
+
+🚩formulář není uzavřen
+
+🚩flasková aplikace neposílá žádná data zpět na stránku
+
+🚩hláška měla být odeslána do html, ne printována do konzole - krátké slovo se řeší až poté, co program zpracuje data (nehledě na to, jestli je krátké nebo ne)
+
+❌
+
+🚩máte dvě proměnné s názvem stiznost, jakým způsobem flask pozná, kdy chcete zapisovat data do listu stiznost a kdy pracujete s daty z html formuláře, které ukládáte také pod proměnnou stiznost?
+
+## Známka: 4
